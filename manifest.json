@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Get Page Images",
-  "description": "Grabs all images on a page and allows you to download any you choose.",
-  "version": "1.2.0",
+  "name": "Block New Tabs",
+  "description": "Prevents web pages you specify from opening new tabs programmatically.",
+  "version": "1.0.0",
   "author": {
     "email": "CybershiftLabs@gmail.com"
   },
