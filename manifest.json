@@ -13,10 +13,19 @@
     "128": "images/GetPageImages-logo-128x128.png"
   },
   "action": {
-    "default_icon": "images/GetPageImages-logo.png"
+    "default_icon": "images/lockIn-logo.png",
+    "default_popup": "index.html"
   },
-  "permissions": ["activeTab", "scripting", "storage", "downloads"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.com/**"],
+      "js": ["scripts/content.js"]
+    }
+  ],
   "background": {
-    "service_worker": "scripts/background.js"
-  }
+    "service_worker": "scripts/service_worker.js",
+    "type": "module"
+  },
+  "host_permissions": ["*://*/*"],
+  "permissions": ["scripting", "tabs", "storage"]
 }

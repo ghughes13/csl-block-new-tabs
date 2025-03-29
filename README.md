@@ -1,22 +1,23 @@
 # csl-block-new-tabs
+
 Chrome Extension that prevents specified sites from opening new tabs.
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3 align="center">Get Page Images</h3>
+  <h3 align="center">Block New Tabs</h3>
 
   <p align="center">
-    A user friendly way for people to get any image they want from a website.
+    A way to block specified sites from being able to open new tabs.
   </p>
 </div>
 
 ## Roadmap
 
-- [x] Get Alt Tag For Images (If available)
-- [x] Get images used in the css background property
-- [x] Figure out way to detect if image should be displayed on dark background for accessibility. (This doesn't seem possible due to cross origin restrictions. Just added dark mode instead)
-- [x] Improve UI
-- [] Add way to download all images with one click
+- []
+- []
+- []
+- []
+- []
 
 Want to propose a new feature or see a bug? Open an issue here - [open issues](https://github.com/ghughes13/get-page-images/issues)
 
@@ -53,6 +54,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Garrett Hughes - [@Ghughes139](https://twitter.com/Ghughes139) - cybershiftlabs@gmail.com
 
-Project Link: [https://github.com/ghughes13/get-page-images](https://github.com/ghughes13/get-page-images)
+Project Link: [https://github.com/ghughes13/csl-block-new-tabs.git](https://github.com/ghughes13/csl-block-new-tabs.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
